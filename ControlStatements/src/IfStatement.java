@@ -22,17 +22,14 @@ public class IfStatement
 		
 		if (gradeCounter !=0)
 		{
-			double average = (double) total / gradeCounter;	
+			/* Variable type in () means we are casting. e.g. in the following line 
+			 we are casting an int into a double. */
+			double average = (double) total / gradeCounter;	 
 			System.out.printf("The total average of %d grades is : %.2f", gradeCounter, average);
 		}
 		else
 		{
 			System.out.println("No grades were entered!");
 		}
-		
-		
-		
-		
 	}
-
 }
