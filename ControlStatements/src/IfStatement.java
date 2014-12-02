@@ -16,7 +16,7 @@ public class IfStatement
 			total = total + grade;
 			gradeCounter++;
 						
-			System.out.printf("Enter grades of -1 to quit: ");
+			System.out.printf("Enter grades to find average or -1 to quit: ");
 			grade = keyInput.nextInt();
 		}
 		
