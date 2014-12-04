@@ -42,7 +42,8 @@ public class CrapsGame
 			{
 				gameStatus = Status.WIN;
 				
-			} else 
+			} 
+			else if(sumOfDice == 7)
 			{
 				gameStatus = Status.LOST;
 			}
