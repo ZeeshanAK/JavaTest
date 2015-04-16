@@ -1,0 +1,14 @@
+
+public class TimeMain {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Wassup");
+		Time t = new Time();
+		
+		System.out.printf("In universal: %s %nIn Twelve: %s", t.inUniversal(),t.inTwelveHour());
+		
+
+	}
+
+}

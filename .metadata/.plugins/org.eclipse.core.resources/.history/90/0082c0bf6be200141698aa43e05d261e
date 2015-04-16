@@ -1,0 +1,23 @@
+
+public class InhEx 
+{
+	private String fName;
+	private String lName;
+	
+	public InhEx()
+	{
+		this.fName = fName;
+		this.lName = lName;
+	}
+	
+	public void setName(String fName, String lName)
+	{
+		this.fName = fName;
+		this.lName = lName;
+	}
+	
+	public String getName()
+	{
+		return fName + lName;
+	}
+}

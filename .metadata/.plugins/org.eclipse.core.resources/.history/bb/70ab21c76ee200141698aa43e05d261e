@@ -1,0 +1,11 @@
+
+public class InhExMain {
+
+	public static void main(String[] args) {
+		InhEx obj = new InhEx("Master", "Sean");
+		
+		System.out.println(obj.getName());
+
+	}
+
+}

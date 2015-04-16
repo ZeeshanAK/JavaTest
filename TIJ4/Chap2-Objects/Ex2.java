@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /*
  * Exercise 2: (1) Following the HelloDate.java example in this chapter, 
  * create a “hello, world” program that simply displays that statement. 
@@ -9,9 +11,35 @@
  */
 
 
-public class Ex2 {
-	public static void main (String[]  args){
-		System.out.println("Hello, World!");
-	}
 
+class Ex2{
+	//public static void main (String[] args){
+//		String s = "Initial text";
+//		System.out.println(s);
+//		
+//		s += " [I was added later!]";
+//		System.out.println(s);
+//		
+//		int x = 3;
+//		int y = 4;
+//		
+//		x = x*y;
+//		System.out.println(x);
+//		
+//		
+		
+		
+			public static void main(String[] args) {
+				Random rand = new Random();
+				int Arr[] = new int [10];
+				
+				for (int i = 0; i < 10; i ++)
+					Arr[i] = rand.nextInt(20)+1;
+				
+				for(int x : Arr)
+				System.out.println(x);
+				
+				
+	}
 }
+			

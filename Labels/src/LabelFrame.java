@@ -1,0 +1,37 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
+
+
+public class LabelFrame extends JFrame 
+{
+	private final JLabel label1;
+	private final JLabel label2;
+	private final JLabel label3;
+	
+	public LabelFrame()
+	{
+		super ("Testing JLabel");
+		setLayout(new FlowLayout());
+		
+		label1 = new JLabel("Label with text.");
+		label1.setToolTipText("This is labe 1");
+		add(label1);
+		
+		
+		label2 = new JLabel();
+		label2.setText("This is label two with setText");
+		label2.setToolTipText("This is label 2");
+		add(label2);	
+		
+		Icon img = new ImageIcon(getClass().getResource("bug1.png"));
+		label3 = new JLabel("This is label 3 with image.", img, SwingConstants.LEFT);
+		add(label3);
+		label3.setToolTipText("Waddduuuuuup?");
+		
+	}
+}

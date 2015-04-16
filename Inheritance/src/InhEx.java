@@ -1,0 +1,30 @@
+
+public class InhEx 
+{
+	protected String fName;
+	protected String lName;
+	
+	public InhEx(String fName, String lName)
+	{
+		this.fName = fName;
+		this.lName = lName;
+	}
+	
+	public void setName(String fName, String lName)
+	{
+		this.fName = fName;
+		this.lName = lName;
+	}
+	
+	public String getName()
+	{
+		return fName + " " + lName;
+	}
+	
+	public void print()
+	{
+		System.out.println("Base");
+	}
+	
+}
+

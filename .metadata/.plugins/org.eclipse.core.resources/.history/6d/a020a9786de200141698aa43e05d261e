@@ -1,0 +1,10 @@
+
+public class InhExMid extends InhEx
+{
+
+	public InhExMid(String fName, String lName) {
+		super(fName, lName);
+		// TODO Auto-generated constructor stub
+	}
+	
+}

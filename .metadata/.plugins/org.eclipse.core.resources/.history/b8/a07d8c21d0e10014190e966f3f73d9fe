@@ -1,0 +1,17 @@
+
+public class TimeMain {
+
+	public static void main(String[] args) 
+	{
+		
+		Time t = new Time();
+		
+		System.out.printf("In universal: %s %nIn Twelve Hours: %s", t.inUniversal(),t.inTwelveHour());
+		
+		t.setTime(15, 25, 45);
+		System.out.println("After setting time:");
+		System.out.printf("%n%nIn universal: %s %nIn Twelve Hours: %s", t.inUniversal(),t.inTwelveHour());
+
+	}
+
+}

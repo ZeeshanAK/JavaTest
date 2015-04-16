@@ -1,0 +1,30 @@
+import javax.swing.JOptionPane;
+
+public class Addition {
+
+	public static void main(String[] args) 
+	{
+		String firstNumber = JOptionPane.showInputDialog("Enter your name.");
+		//String secondNumber = JOptionPane.showInputDialog("Enter your name.");
+		
+//		int num1 = Integer.parseInt(firstNumber);
+//		int num2 = Integer.parseInt(secondNumber);
+//		int sum = num1 + num2;
+
+		
+		if (firstNumber .equals("Zeeshan"))
+		{
+			JOptionPane.showMessageDialog(null, "Welcome " + firstNumber, 
+		
+										"Sum of two nums", JOptionPane.PLAIN_MESSAGE);
+		}
+		
+		else
+		{
+			JOptionPane.showMessageDialog(null, "Welcome, guest" , 
+		
+										"Sum of two nums", JOptionPane.INFORMATION_MESSAGE);
+		}
+	}
+
+}

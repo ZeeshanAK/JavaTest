@@ -1,0 +1,17 @@
+
+public class TimeMain {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Wassup");
+		Time t = new Time();
+		t.inUniversal();
+		t.inTwelveHour();
+		
+		t.setTime(5,6,7);
+		t.inUniversal();
+		t.inTwelveHour();
+		
+	}
+
+}

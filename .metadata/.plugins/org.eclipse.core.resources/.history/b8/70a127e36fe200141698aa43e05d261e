@@ -1,0 +1,24 @@
+
+public class InhExMid extends InhEx
+{
+	private String mName;
+	
+	InhExMid(String fName, String lName, String mName)
+	{
+		super(fName, lName);
+		this.mName = mName;
+	}
+	
+	public void setName(String fName, String lName, String mName)
+	{
+		super.setName(fName, lName);
+		this.mName = mName;
+	}
+	
+	@Override
+	public String getName()
+	{
+		return fName + " " + lName + " " + lName ;
+	}
+	
+}

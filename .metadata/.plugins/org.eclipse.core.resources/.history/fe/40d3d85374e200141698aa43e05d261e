@@ -1,0 +1,13 @@
+
+public class InhExMain {
+
+	public static void main(String[] args) {
+		InhExMid obj = new InhExMid("Master", "Khan");
+		
+		System.out.println(obj.getName());
+		
+		//System.out.printf("First name: %s%n Midname: %s%n Lastname: %s", obj.fName, obj.mName, obj.lName);
+
+	}
+
+}
